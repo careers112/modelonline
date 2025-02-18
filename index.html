@@ -24,7 +24,7 @@
 
         // Загружаем 3D-модель
         const loader = new THREE.GLTFLoader();
-        loader.load('conv.glb', function(gltf) {
+        loader.load('model.glb', function(gltf) {
             scene.add(gltf.scene);
         }, undefined, function(error) {
             console.error(error);
